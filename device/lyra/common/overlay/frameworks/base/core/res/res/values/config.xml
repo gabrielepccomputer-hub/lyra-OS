@@ -1,0 +1,4 @@
+<resources>
+    <bool name="config_wifi_available">true</bool>
+    <bool name="config_bluetooth_le_supported">true</bool>
+</resources>

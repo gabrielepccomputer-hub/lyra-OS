@@ -1,0 +1,7 @@
+on boot
+    # Attivazione servizi essenziali
+    class_start core
+
+on property:sys.boot_completed=1
+    # Appena avviato, avvia SimpMusic
+    start LyraLauncher
